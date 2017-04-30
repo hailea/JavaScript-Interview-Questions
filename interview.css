@@ -2,33 +2,65 @@
   background-color: rgba(255,0,0,0.5);
   background-image: -webkit-radial-gradient(ellipse farthest-corner at 505px 405px , #EF5 0%, rgba(255, 255, 0, 0) 70%, #F00 95%);
  background-image: -moz-radial-gradient(ellipse farthest-corner at 505px 405px , #EF5 0%, rgba(255, 255, 0, 0) 70%, #F00 95%);
- background-image: radial-gradient(ellipse farthest-corner at 505px 405px , #EF5 0%, rgba(255, 255, 0, 0) 70%, #F00 95%);
+ background-image: radial-gradient(ellipse farthest-corner at 505px 405px , #F70 0%, rgba(255, 255, 0, 0) 70%, #F00 95%);
   font-family: 'Oswald', sans-serif;
-  font-size:1.2em;margin:0.5% 1% 0.5% 1%; width:90%; height:90%; border: 2px dashed #456700;
 
 }
-section{
-     border: 1em #456 solid;margin:2% 2% 2% 2%;
-}
+footer{
+    margin:2% 0% 0% 0%;
+    background-color:#005;
+    background-image: radial-gradient(ellipse farthest-corner at 245px 45px , #f00 10%, rgba(0, 0, 0, 0.8) 50%, #808 95%);
+    color:#FFC;
+  }
+
 .bigWord{
-    font-size:1.2em;color:#FFF; background-color:rgba(4,5,6,0.5);
+    color:#FFF; background-color:rgba(4,5,6,0.5);
     border: 0.1em #FFF solid;
 }
 .bigWord:hover{
     background-color:rgba(4,5,6,0.9);
     cursor:pointer;
-    
+
 }
 .defn{
-    font-size:0.51em;
     display:none;
 }
 .myReply{
     display:block;
-    margin:0.1% 15% 0.1% 5%;
-    font-size:0.91em;
-    border:0.2em #123456 double;
+    margin:0% 5% 1% 5%;
 }
 code{
-    width:90%; display:block; color:white; background-color: black; margin:0.3em;
+    width:60%; display:block; color:white; background-color: black; margin:0.3em;
+}
+
+/* Small devices (smartphones) */
+@media (max-width: 600px) {
+    body{
+         margin:5px;
+         padding:2px;
+         border:5px solid #000;
+         font-size:1.2em;
+    }
+
+}
+
+/* Small devices (tablets) */
+@media (min-width: 600px) {
+ body{
+        margin:15px 5px;
+        padding:5px;
+        border:10px solid #055;
+        font-size:1.7em;
+}
+
+}
+/* Medium devices (desktops) */
+@media (min-width: 850px) {
+     body{
+        margin:5px 4px;
+        padding:5px 50px;
+        border:10px solid #006a99;
+        font-size:2em;
+  }
+
 }

@@ -11,7 +11,6 @@
     });
     $(".bigWord").on("dblclick", function () {
         $(".defn").removeClass("myReply");
-        
+
     });
 });
-    
